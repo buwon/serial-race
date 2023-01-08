@@ -12,7 +12,7 @@ await build({
   },
   package: {
     name: "serial-race",
-    version: "1.0.0",
+    version: "1.0.1",
     description: "serial run task and return first result",
     author: "buwon",
     license: "MIT",
