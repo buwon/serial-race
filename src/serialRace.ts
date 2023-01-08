@@ -40,7 +40,7 @@ class TaskRace<output> {
 
 // deno-lint-ignore no-explicit-any
 export function serialRace<output = any>(
-  defaultValue: output,
+  defaultValue?: output,
 ): TaskRace<output> {
   return new TaskRace<output>(defaultValue);
 }
