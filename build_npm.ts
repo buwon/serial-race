@@ -5,7 +5,7 @@ const npm = './.npm';
 await emptyDir(`${npm}`);
 
 await build({
-  entryPoints: ['./src/mod.ts'],
+  entryPoints: ['./src/index.ts'],
   outDir: `${npm}`,
   shims: {
     deno: true,
@@ -16,7 +16,6 @@ await build({
     description: 'serial run task and return first result',
     author: 'buwon',
     license: 'MIT',
-    main: 'mod.js',
     repository: {
       type: 'git',
       url: 'git+https://github.com/buwon/serial-race.git',
