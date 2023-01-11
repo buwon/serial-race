@@ -49,3 +49,17 @@ function doProcess(key: string) {
 ## Features
 
 - It will break as soon as there are results. No unnecessary processing.
+
+## Installation
+
+Via npm
+
+```shell
+npm install serial-race
+```
+
+Via deno
+
+```ts
+import { serialRace } from 'https://deno.land/x/serial_race/mod.ts';
+```
